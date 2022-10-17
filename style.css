@@ -1,0 +1,75 @@
+.nav-link, .color {
+    color: #C5A880;
+    font-family: 'Cormorant SC', serif;
+    font-size: 30px;
+}
+
+.nav-link:hover,.color:hover {
+    color: black;
+}
+
+h2, .comp {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+.afro {background-color: #F7F7F7;
+}
+
+.tik {
+    border: 1px solid #C5A880;
+}
+
+h1, h4, .lead {
+    font-family: 'Cormorant SC', serif;
+    color: #C5A880;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 27px;
+}
+
+.font {
+    color: black;
+    font-family: 'Cormorant SC', serif;
+    font-size: 25px;
+    list-style: none;
+}
+
+svg {
+    color: #C5A880;
+}
+
+.leads {
+    font-family: 'Cormorant SC', serif;
+    font-size: 25px;
+    color: #C5A880;
+}
+
+.gold {
+    background-color: #C5A880;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #C5A880;
+}
+
+.font-list {
+    color: black;
+    font-family: 'Cormorant SC', serif;
+    font-size: 20px;
+    list-style: none;
+    margin-right: 40px;
+}
+
+@media all and (max-width: 500px) {
+
+    h2, .comp, .nav-link, .font {
+        font-size: 17px;
+    }
+}
