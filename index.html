@@ -92,9 +92,12 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <form>
+                                <form class="needs-validation" novalidate>
                                     <div class="mb-3">
-                                        <input type="text" class="form-control shadow-none comp border-dark" aria-describedby="nameHelp" placeholder="Имя">
+                                        <input type="text" class="form-control shadow-none comp border-dark" aria-describedby="nameHelp" placeholder="Имя" required>
+                                    </div>
+                                    <div class="invalid-feedback">
+                                        Valid first name is required.
                                     </div>
                                     <div class="mb-3">
                                         <input type="tel" class="form-control shadow-none comp border-dark" aria-describedby="phoneHelp" placeholder="Телефон">
@@ -109,7 +112,7 @@
                                 </form>    
                             </div>
                             <div class="modal-footer">
-                            <button type="button" class="gold p-3 border-0 text-white" data-bs-dismiss="modal">Отправить</button>
+                            <button type="submit" class="gold p-3 border-0 text-white" data-bs-dismiss="modal">Отправить</button>
                             </div>
                         </div>
                     </div>

@@ -13,6 +13,10 @@ h2, .comp {
     font-size: 20px;
 }
 
+.carousel-inner {
+    max-height: 80vh;
+}
+
 .afro {background-color: #F7F7F7;
 }
 
