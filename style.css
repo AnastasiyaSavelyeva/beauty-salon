@@ -71,6 +71,20 @@ a:hover {
     margin-right: 40px;
 }
 
+.input:focus {
+    border: 1px solid black;
+    outline: none;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+}
+
+.check:checked {
+    background-color: #C5A880;
+}
+
 @media all and (max-width: 500px) {
 
     h2, .comp, .nav-link, .font {

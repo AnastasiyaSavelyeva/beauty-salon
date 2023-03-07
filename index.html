@@ -92,12 +92,9 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <form class="needs-validation" novalidate>
+                                <!--<form class="needs-validation" novalidate>
                                     <div class="mb-3">
                                         <input type="text" class="form-control shadow-none comp border-dark" aria-describedby="nameHelp" placeholder="Имя" required>
-                                    </div>
-                                    <div class="invalid-feedback">
-                                        Valid first name is required.
                                     </div>
                                     <div class="mb-3">
                                         <input type="tel" class="form-control shadow-none comp border-dark" aria-describedby="phoneHelp" placeholder="Телефон">
@@ -109,11 +106,48 @@
                                         <input type="checkbox" class="form-check-input shadow-none bg-dark border-dark" id="exampleCheck1">
                                         <label class="form-check-label text-dark comp">Я ознакомлен (-на) и согласен (-на) с политикой обработки персональных данных</label>
                                     </div>
-                                </form>    
+                                    <div class="modal-footer">
+                                        <button type="submit" class="gold p-3 border-0 text-white" data-bs-dismiss="modal">Отправить</button>
+                                    </div>
+                                </form>    -->
+                                <form class="row g-3 needs-validation" novalidate>
+                                    <div class="col-md-12">
+                                        <input type="text" class="form-control comp shadow-none input" id="validationCustom01" value="" placeholder="Имя" required>
+                                        <div class="valid-feedback">
+                                            Отлично!
+                                        </div>
+                                        <div class="invalid-feedback">
+                                            Пожалуйста, введите свое имя.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="text" class="form-control comp shadow-none input" id="validationCustom02" value="" placeholder="Телефон" required>
+                                        <div class="valid-feedback">
+                                            Отлично!
+                                        </div>
+                                        <div class="invalid-feedback">
+                                            Пожалуйста, введите свой телефон.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <textarea class="form-control comp shadow-none" rows="3" placeholder="Ваше сообщение" required></textarea>
+                                    </div>
+                                    <div class="form-check mx-3">
+                                        <input class="form-check-input check shadow-none border-dark" type="checkbox" value="" id="invalidCheck" required>
+                                        <label class="form-check-label text-dark comp">Я ознакомлен (-на) и согласен (-на) с политикой обработки персональных данных</label>
+                                    </div>
+                                    <label class="form-check-label" for="invalidCheck">
+                                        Согласен (-на)
+                                    </label>
+                                    <div class="invalid-feedback">
+                                        Вы должны дать согласие
+                                    </div>
+                                    <div>
+                                        <button class="gold p-3 border-0 rounded-2 text-white fs-5" type="submit">Submit form</button>
+                                    </div>
+                                </form>
                             </div>
-                            <div class="modal-footer">
-                            <button type="submit" class="gold p-3 border-0 text-white" data-bs-dismiss="modal">Отправить</button>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -124,8 +158,8 @@
             <div class="position-relative overflow-hidden p-3 p-md-3 m-md-3 text-center afro tik">
                 <div class="col-md-10 p-lg-2 mx-auto my-5">
                     <h1 class="display-5 fw-normal">"АФРОДИТА"</h1>
-                    <h1 class="display-5 fw-normal">
-                    САЛОН КРАСОТЫ ПРЕМИУМ КЛАССА</Р>
+                    <h2 class="display-5 fw-normal">
+                    САЛОН КРАСОТЫ ПРЕМИУМ КЛАССА</h2>
                 </div>
                 <p class="lead fw-normal fs-3 bg-dark">КРАСОТА рождается внутри. Внутри САЛОНА "АФРОДИТА"</p>
                 <div class="product-device shadow-sm d-none d-md-block"></div>
@@ -358,6 +392,7 @@
                     </footer>
                 </div>
             </section>
+            <script src="script.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
     </body>
