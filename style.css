@@ -4,7 +4,7 @@
     font-size: 30px;
 }
 
-.nav-link:hover,.color:hover {
+.nav-link:hover, .color:hover {
     color: black;
 }
 
@@ -17,7 +17,8 @@ h2, .comp {
     max-height: 80vh;
 }
 
-.afro, .text {background-color: #F7F7F7;
+.afro, .text {
+    background-color: #F7F7F7;
 }
 
 .tik {
@@ -29,7 +30,7 @@ h1, h4, .lead {
     color: #C5A880;
 }
 
-h3, .text  {
+h3, .text {
     font-family: 'Roboto Slab', serif;
     font-size: 27px;
 }
@@ -101,7 +102,7 @@ a:hover {
 }
 
 .card-item {
-   width: 295px;
+    width: 295px;
 }
 
 .card-item img {
@@ -117,11 +118,27 @@ a:hover {
     height: 90px;
 }
 
+@media all and (max-width: 800px) {
+    .card-title {
+        height: 50px;
+    }
 
+}
 
 @media all and (max-width: 500px) {
+    .cards {
+        justify-content: center !important;
+    }
 
-    h2, .comp, .nav-link, .font {
-        font-size: 17px;
+    .footer {
+        justify-content: center !important;
+    }
+
+    h2, .comp, .nav-link, .font, .color {
+        font-size: 20px;
+    }
+
+    #form {
+        padding: 15px !important;
     }
 }
