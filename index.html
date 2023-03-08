@@ -79,40 +79,28 @@
         <br>
         <!-- Compliment -->
         <div class="d-flex justify-content-center">
-            <div class="h-100 p-5 text-white bg-dark rounded-3 col-8 text-center">
+            <div class="h-100 p-5 text-white bg-dark rounded-3 col-8 text-center"  id="form">
                 <h2 class="text-center">КОМПЛИМЕНТ</h2>
                 <p class="comp">Скидка 15% на первый визит в салон "АФРОДИТА"</p>
                 <button type="button" class="btn btn-outline-light comp" data-bs-toggle="modal" data-bs-target="#staticBackdrop">ЗАПИСАТЬСЯ</button>
+            </div>
+        </div>
+
                 <!-- Modal -->
-                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                     tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h1 class="modal-title fs-5" id="staticBackdropLabel">МЫ ВАМ ПЕРЕЗВОНИМ!</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <!--<form class="needs-validation" novalidate>
-                                    <div class="mb-3">
-                                        <input type="text" class="form-control shadow-none comp border-dark" aria-describedby="nameHelp" placeholder="Имя" required>
-                                    </div>
-                                    <div class="mb-3">
-                                        <input type="tel" class="form-control shadow-none comp border-dark" aria-describedby="phoneHelp" placeholder="Телефон">
-                                    </div>
-                                    <div class="mb-3">
-                                        <textarea class="form-control shadow-none comp border-dark" rows="3" placeholder="Ваше сообщение"></textarea>
-                                    </div>
-                                    <div class="mb-3 form-check">
-                                        <input type="checkbox" class="form-check-input shadow-none bg-dark border-dark" id="exampleCheck1">
-                                        <label class="form-check-label text-dark comp">Я ознакомлен (-на) и согласен (-на) с политикой обработки персональных данных</label>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="submit" class="gold p-3 border-0 text-white" data-bs-dismiss="modal">Отправить</button>
-                                    </div>
-                                </form>    -->
-                                <form class="row g-3 needs-validation" novalidate>
+                                <form class="row g-3 needs-validation text-center" novalidate>
                                     <div class="col-md-12">
-                                        <input type="text" class="form-control comp shadow-none input" id="validationCustom01" value="" placeholder="Имя" required>
+                                        <input type="text" class="form-control comp shadow-none input"
+                                               id="validationCustom01" value="" placeholder="Имя" required>
                                         <div class="valid-feedback">
                                             Отлично!
                                         </div>
@@ -121,7 +109,8 @@
                                         </div>
                                     </div>
                                     <div class="col-md-12">
-                                        <input type="text" class="form-control comp shadow-none input" id="validationCustom02" value="" placeholder="Телефон" required>
+                                        <input type="text" class="form-control comp shadow-none input"
+                                               id="validationCustom02" value="" placeholder="Телефон" required>
                                         <div class="valid-feedback">
                                             Отлично!
                                         </div>
@@ -130,29 +119,25 @@
                                         </div>
                                     </div>
                                     <div class="col-md-12">
-                                        <textarea class="form-control comp shadow-none" rows="3" placeholder="Ваше сообщение" required></textarea>
+                                        <textarea class="form-control comp shadow-none" rows="3"
+                                                  placeholder="Ваше сообщение" required></textarea>
                                     </div>
                                     <div class="form-check mx-3">
-                                        <input class="form-check-input check shadow-none border-dark" type="checkbox" value="" id="invalidCheck" required>
-                                        <label class="form-check-label text-dark comp">Я ознакомлен (-на) и согласен (-на) с политикой обработки персональных данных</label>
-                                    </div>
-                                    <label class="form-check-label" for="invalidCheck">
-                                        Согласен (-на)
-                                    </label>
-                                    <div class="invalid-feedback">
-                                        Вы должны дать согласие
+                                        <input class="form-check-input check shadow-none border-dark" type="checkbox"
+                                               value="" id="invalidCheck" required>
+                                        <label class="form-check-label text-dark comp">Я ознакомлен (-на) и согласен
+                                            (-на) с политикой обработки персональных данных</label>
                                     </div>
                                     <div>
-                                        <button class="gold p-3 border-0 rounded-2 text-white fs-5" type="submit">Submit form</button>
+                                        <button class="gold p-3 border-0 rounded-2 text-white fs-5" type="submit">
+                                            Отправить
+                                        </button>
                                     </div>
                                 </form>
                             </div>
-
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
         <!-- Element -->
         <section id="about">
             <div class="position-relative overflow-hidden p-3 p-md-3 m-md-3 text-center afro tik">
@@ -234,29 +219,59 @@
                 <div class="col-md-10 p-lg-2 mx-auto my-1">
                     <h1>ПОЧЕМУ ВЫБИРАЮТ НАС?</h1>
                 </div>
-                <ul class="font">
-                    <li class="d-flex flex-column justify-content-between">
-                        <p class="leads bg-dark p-lg-2">ПРОФЕССИОНАЛИЗМ:</p>
-                        Работают одни из лучших специалистов Москвы
-                    </li>
-                    <li class="d-flex flex-column justify-content-between">
-                        <p class="leads bg-dark p-lg-2">СКОРОСТЬ:</p>
-                        VIP-кабинеты. До 5 услуг оказываем одновременно
-                    </li>
-                    <li class="d-flex flex-column justify-content-between">
-                        <p class="leads bg-dark p-lg-2">КАЧЕСТВО:</p>
-                        Используются только высокоэффективные препараты класса ЛЮКС
-                    </li>
-                    <li class="d-flex flex-column justify-content-between">
-                        <p class="leads bg-dark p-lg-2">КОМФОРТ:</p>
-                        Шикарный интерьер. Все продумано для Вашего удобства
-                    </li>
-                    <li class="d-flex flex-column justify-content-between">
-                        <p class="leads bg-dark p-lg-2">БЕЗОПАСНОСТЬ:</p>
-                        Соблюдение всех санитарных норм. Медицинская лицензия
-                    </li>
-                    <br>
-                    <h1> Высокое качество услуг и безупречный сервис - Гарантируем</h1>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed leads p-lg-2" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    ПРОФЕССИОНАЛИЗМ
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body border-0 text" >Работают одни из лучших специалистов Москвы</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed leads p-lg-2" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    СКОРОСТЬ
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body text">VIP-кабинеты. До 5 услуг оказываем одновременно</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed leads p-lg-2" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    КАЧЕСТВО
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body text">Используются только высокоэффективные препараты класса ЛЮКС</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed leads p-lg-2" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                    КОМФОРТ
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body text">Шикарный интерьер. Все продумано для Вашего удобства</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFive">
+                                <button class="accordion-button collapsed leads p-lg-2" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                    БЕЗОПАСНОСТЬ
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body text">Соблюдение всех санитарных норм. Медицинская лицензия</div>
+                            </div>
+                        </div>
+                    </div>
+                    <h1 class="mt-5"> Высокое качество услуг и безупречный сервис - Гарантируем</h1>
                 </ul>
             </div>
             <!-- Pricing -->
@@ -310,7 +325,6 @@
                                     <li>Коррекция бровей</li>
                                     <li>Наращивание ресниц</li>
                                     <li>Свадебный макияж</li>
-                                    <br>
                                 </ul>
                                 <a href="Visage.html"><button type="button" class="w-100 btn btn-lg btn-outline-dark comp">ПОДРОБНЕЕ</button></a>
                             </div>
@@ -329,7 +343,6 @@
                                     <li>Наращивание ногтей</li>
                                     <li>Педикюр</li>
                                     <li>Лечебный педикюр</li>
-                                    <br>
                                 </ul>
                                 <a href="Nails.html"><button type="button" class="w-100 btn btn-lg btn-outline-dark comp">ПОДРОБНЕЕ</button></a>
                             </div>
@@ -348,7 +361,6 @@
                                     <li>Укладки/Прически</li>
                                     <li>Завивка</li>
                                     <li>Уходы</li>
-                                    <br>
                                 </ul>
                                 <a href="Hair.html"><button type="button" class="w-100 btn btn-lg btn-outline-dark comp">ПОДРОБНЕЕ</button></a>
                             </div>
@@ -364,7 +376,7 @@
                             <img src="icon.png" class="bi" width="80" height="80">
                             <span class="text-muted comp">© 2022 OOO "Афродита"</span>
                         </div>
-                        <p class="comp">Телефон: 8-963-637-45-11</p>
+                        <p class="comp">Телефон: 8-999-999-99-99</p>
                         <ul class="nav col-md-3 justify-content-evenly list-unstyled d-flex">
                             <li class="ms-3">
                                 <a class="text-muted" href="#">
@@ -374,7 +386,7 @@
                                 </a>
                             </li>
                             <li class="ms-3">
-                                <a class="text-muted" href="https://wa.me/79636374511">
+                                <a class="text-muted" href="https://wa.me/79999999999">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
                                         <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
                                     </svg>

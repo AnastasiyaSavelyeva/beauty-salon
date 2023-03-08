@@ -17,69 +17,35 @@
     </head>
     <body>
         <!-- Heading -->
-        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+        <nav aria-label="breadcrumb">
             <ol class="breadcrumb ms-3 p-3">
                 <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Парикмахерские услуги</li>
             </ol>
         </nav>
-        <!-- Modal -->
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="staticBackdropLabel">МЫ ВАМ ПЕРЕЗВОНИМ!</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="mb-3">
-                                <input type="text" class="form-control shadow-none comp border-dark" aria-describedby="nameHelp" placeholder="Имя">
-                            </div>
-                            <div class="mb-3">
-                                <input type="tel" class="form-control shadow-none comp border-dark" aria-describedby="phoneHelp" placeholder="Телефон">
-                            </div>
-                            <div class="mb-3">
-                                <textarea class="form-control shadow-none comp border-dark" rows="3" placeholder="Ваше сообщение"></textarea>
-                            </div>
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input shadow-none bg-dark border-dark" id="exampleCheck1">
-                                <label class="form-check-label text-dark comp">Я ознакомлен (-на) и согласен (-на) с политикой обработки персональных данных</label>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="gold p-3 border-0 text-white" data-bs-dismiss="modal">Отправить</button>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- Discribing -->
         <div class="container px-4 py-2" id="icon-grid">
             <h1 class="pb-2 border-bottom">ПАРИКМАХЕРСКИЕ УСЛУГИ</h1>
         </div>
         <div class="d-md-flex justify-content-evenly flex-md-equal w-100 my-md-3 ps-md-3">
-            <div class="card">
+            <div class="card card-item">
                 <img src="https://media.istockphoto.com/photos/closeup-face-of-young-woman-with-blonde-short-hair-isolated-over-gray-picture-id1080400402?k=20&m=1080400402&s=612x612&w=0&h=b7-_MFbWgQt8gJNG80qsdax1Bmy9Qj56_333Fe8Hwzo=" class="card-img-top" alt="spa">
                 <div class="card-body text-center">
                     <h4 class="card-title">Стрижки</h4>
-                    <br>
                     <p class="card-text lead afro">Выбери индивидуальность!</p>
                     <ul class="font-list">
                         <li>Женские стрижки</li>
                         <li>Мужские стрижки</li>
                         <li>Детские стрижки</li>
                         <li>Сложные стрижки</li>
-                        <br>
                     </ul>
-                    <button type="button" class="btn btn-dark comp" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Записаться</button>
+                    <a class="btn btn-dark comp" href="index.html#form">Записаться</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card card-item">
                 <img src="https://media.istockphoto.com/photos/beauty-portrait-concept-coloring-hair-picture-id468366943?k=20&m=468366943&s=612x612&w=0&h=Ajuc2x400WArdE-w69ZTOJKSKy4uRCLgbAnOLzAdnf8=" class="card-img-top" alt="spa">
                 <div class="card-body text-center">
                     <h4 class="card-title">Окрашивания</h4>
-                    <br>
                     <p class="card-text lead afro">Внеси в образ красок!</p>
                     <ul class="font-list">
                         <li>Простое окрашивание</li>
@@ -87,14 +53,13 @@
                         <li>Тонирование волос</li>
                         <li>Техника Шатуш</li>
                     </ul>
-                    <button type="button" class="btn btn-dark comp" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Записаться</button>
+                    <a class="btn btn-dark comp" href="index.html#form">Записаться</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card card-item">
                 <img src="https://media.istockphoto.com/photos/elegant-wedding-hairstyle-on-a-beautiful-bride-in-profile-picture-id895176688?k=20&m=895176688&s=612x612&w=0&h=ow5PjtyrOooWWeteXUUcwG6e-kACG1zPtwf3PE1b_qg=" class="card-img-top" alt="spa">
                 <div class="card-body text-center">
                     <h4 class="card-title">Укладки/Прически</h4>
-                    <br>
                     <p class="card-text lead afro">Заверши свой образ!</p>
                     <ul class="font-list">
                         <li>Простая укладка</li>
@@ -103,14 +68,13 @@
                         <li>Свадебная укладка</li>
                         <li>Плетение кос</li>
                     </ul>
-                    <button type="button" class="btn btn-dark comp" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Записаться</button>
+                    <a class="btn btn-dark comp" href="index.html#form">Записаться</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card card-item">
                 <img src="https://media.istockphoto.com/photos/beautiful-woman-with-stylish-hairstyle-picture-id508624438?k=20&m=508624438&s=612x612&w=0&h=Hp_aPPrjv680RDruNamnhHTO4e7LTN5PPuKz7pz44JQ=" class="card-img-top" alt="spa">
                 <div class="card-body text-center">
                     <h4 class="card-title">Завивка</h4>
-                    <br>
                     <p class="card-text lead afro">Объем и вызазительность</p>
                     <ul class="font-list">
                         <li>Биозавивка</li>
@@ -119,14 +83,13 @@
                         <li>Шелковая</li>
                         <li>Карвинг</li>
                     </ul>
-                    <button type="button" class="btn btn-dark comp" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Записаться</button>
+                    <a class="btn btn-dark comp" href="index.html#form">Записаться</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card card-item">
                 <img src="https://media.istockphoto.com/photos/beautiful-woman-with-makeup-picture-id872601792?k=20&m=872601792&s=612x612&w=0&h=_n0ew6U1t7Qu0Rp-bwJlCkQuRNaoP1RXoFW6wV-fc1s=" class="card-img-top" alt="spa">
                 <div class="card-body text-center">
                     <h4 class="card-title">Уходы</h4>
-                    <br>
                     <p class="card-text lead afro">Ты идеальна!</p>
                     <ul class="font-list">
                         <li>"Восстановление""</li>
@@ -135,7 +98,7 @@
                         <li>"Блеск и сила""</li>
                         <li>"Жизненная сила""</li>
                     </ul>
-                    <button type="button" class="btn btn-dark comp" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Записаться</button>
+                    <a class="btn btn-dark comp" href="index.html#form">Записаться</a>
                 </div>
             </div>
         </div>

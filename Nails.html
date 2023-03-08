@@ -17,129 +17,82 @@
     </head>
     <body>
         <!-- Heading -->
-        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+        <nav aria-label="breadcrumb">
             <ol class="breadcrumb ms-3 p-3">
                 <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Ногтевой сервис</li>
             </ol>
         </nav>
-        <!-- Modal -->
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="staticBackdropLabel">МЫ ВАМ ПЕРЕЗВОНИМ!</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="mb-3">
-                                <input type="text" class="form-control shadow-none comp border-dark" aria-describedby="nameHelp" placeholder="Имя">
-                            </div>
-                            <div class="mb-3">
-                                <input type="tel" class="form-control shadow-none comp border-dark" aria-describedby="phoneHelp" placeholder="Телефон">
-                            </div>
-                            <div class="mb-3">
-                                <textarea class="form-control shadow-none comp border-dark" rows="3" placeholder="Ваше сообщение"></textarea>
-                            </div>
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input shadow-none bg-dark border-dark" id="exampleCheck1">
-                                <label class="form-check-label text-dark comp">Я ознакомлен (-на) и согласен (-на) с политикой обработки персональных данных</label>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="gold p-3 border-0 text-white" data-bs-dismiss="modal">Отправить</button>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- Discribing -->
         <div class="container px-4 py-2" id="icon-grid">
             <h1 class="pb-2 border-bottom">НОГТЕВОЙ СЕРВИС</h1>
         </div>
         <div class="d-md-flex justify-content-evenly flex-md-equal w-100 my-md-3 ps-md-3">
-            <div class="card">
+            <div class="card card-item">
                 <img src="https://media.istockphoto.com/photos/manicure-picture-id171378559?k=20&m=171378559&s=612x612&w=0&h=DWCBSb3FL7EEdiVz0rZpr89qTzAX8zcQ2K9vM3SrPPU=" class="card-img-top" alt="piling">
                 <div class="card-body text-center">
                     <h4 class="card-title">Маникюр</h4>
-                    <br>
                     <p class="card-text lead afro">Ваша визитная карточка</p>
                     <ul class="font-list">
                         <li>Аппаратный</li>
                         <li>Классический</li>
                         <li>Комбинированный</li>
                         <li>Покрытие гель-лак </li>
-                        <br>
-                        <br>
-                        <br>
                     </ul>
-                    <button type="button" class="btn btn-dark comp" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Записаться</button>
+                    <a class="btn btn-dark comp" href="index.html#form">Записаться</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card card-item">
                 <img src="https://media.istockphoto.com/photos/manicure-picture-id160602623?k=20&m=160602623&s=612x612&w=0&h=ANMOAbDNR7gkJu6extmbzMFJFnXo0yz9yyDkaM-AWU8=" class="card-img-top" alt="piling">
                 <div class="card-body text-center">
                     <h4 class="card-title">SPA-уход для рук</h4>
-                    <br>
                     <p class="card-text lead afro">Подарите заботу и нежность своим ручкам!</p>
                     <ul class="font-list">
                         <li>Лечебный уход</li>
                         <li>Парафинотерапия</li>
                         <li>Уход эксклюзив</li>
-                        <br>
-                        <br>
-                        <br>
                     </ul>
-                    <button type="button" class="btn btn-dark comp" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Записаться</button>
+                    <a class="btn btn-dark comp" href="index.html#form">Записаться</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card card-item">
                 <img src="https://media.istockphoto.com/photos/manicure-picture-id185242110?k=20&m=185242110&s=612x612&w=0&h=-02uv5t4jyJwsALwLd0Hv41j2MbXTajdNIe7E6lFzJk=" class="card-img-top" alt="piling">
                 <div class="card-body text-center">
                     <h4 class="card-title">Наращивание ногтей</h4>
-                    <br>
                     <p class="card-text lead afro">Для тех, кому хочется большего</p>
                     <ul class="font-list">
                         <li>Наращивание акрилом</li>
                         <li>Наращивание гелем</li>
                         <li>Укрепление акрилом</li>
                     </ul>
-                    <button type="button" class="btn btn-dark comp" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Записаться</button>
+                    <a class="btn btn-dark comp" href="index.html#form">Записаться</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card card-item">
                 <img src="https://media.istockphoto.com/photos/female-legs-and-hands-surrounded-by-flower-flakes-picture-id1145691838?k=20&m=1145691838&s=612x612&w=0&h=bBpVsuAj4xf_pK4CCTTP45oEKf3mNVexcbAFZ6xUKsQ=" class="card-img-top" alt="piling">
                 <div class="card-body text-center">
                     <h4 class="card-title">Педикюр</h4>
-                    <br>
                     <p class="card-text lead afro">Ухоженность в мелочах</p>
                     <ul class="font-list">
                         <li>Аппаратный</li>
                         <li>Классический</li>
                         <li>Комбинированный</li>
                         <li>Покрытие гель-лак </li>
-                        <br>
-                        <br>
-                        <br>
                     </ul>
-                    <button type="button" class="btn btn-dark comp" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Записаться</button>
+                    <a class="btn btn-dark comp" href="index.html#form">Записаться</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card card-item">
                 <img src="https://media.istockphoto.com/photos/beautiful-french-pedicure-in-pink-and-white-with-rhinestones-for-the-picture-id1340851903?k=20&m=1340851903&s=612x612&w=0&h=27F739d1tqR86f_pBOiZCgByts4FRVzq1lbE23DAOKY=" class="card-img-top" alt="piling">
                 <div class="card-body text-center">
                     <h4 class="card-title">Лечебный педикюр</h4>
-                    <br>
                     <p class="card-text lead afro">Здоровье во всем</p>
                     <ul class="font-list">
                         <li>Медицинский педикюр</li>
                         <li>Лечение вросших ногтей</li>
                         <li>Покрытие лаком</li>
                     </ul>
-                    <br>
-                    <br>
-                    <button type="button" class="btn btn-dark comp" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Записаться</button>
+                    <a class="btn btn-dark comp" href="index.html#form">Записаться</a>
                 </div>
             </div>
         </div>
